@@ -1,0 +1,26 @@
+.duykhoa-messenger{
+    bottom:16px;
+    right:16px;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(179.83deg,rgb(226,73,167) 0.15%,rgb(120,76,255) 92.02%);
+    height:50px;
+    width:50px;
+    z-index:100;
+    border-radius:100%;
+    animation:duykhoa-messengerfb 2s 0s ease-out infinite}
+    .duykhoa-messenger i{font-size:25px;margin:0;color:#fff}
+    .duykhoa-messenger svg{fill:#fff}
+@keyframes duykhoa-messengerfb{0%{box-shadow:0 0 0 0 rgba(13,144,255)}75%{box-shadow:0 0 0 16px transparent}100%{box-shadow:0 0 0 0 transparent}}
+
+.rung{
+    animation:duykhoa-messengerfb-rung-lac 2s ease infinite}
+    @-webkit-keyframes duykhoa-messengerfb-rung-lac{
+        0%{-webkit-transform:rotate(0) scale(1) skew(1deg)}
+        10%{-webkit-transform:rotate(-25deg) 
+    scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) 
+        scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg)
+     scale(1) skew(1deg)}50%{-webkit-transform:rotate(0) 
+        scale(1) skew(1deg)}100%{-webkit-transform:rotate(0) scale(1) skew(1deg)}}
